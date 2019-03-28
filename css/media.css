@@ -1,0 +1,131 @@
+@media (min-width: 748px){
+	.head-wrap{
+		background-image: url(../img/background-tablet.jpg);
+	}
+
+	.head-menu{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	
+	.wrap-button{
+		margin-right: 38px;
+	}
+	
+	.logo{
+		padding-top: 10px;
+		margin-left: 38px;
+	}
+
+	.head-title{
+		font-size: 52px;
+		padding-top: 48px;
+	}
+	
+	.head-subtitle{
+		font-size: 52px;
+		margin-bottom: 26px;
+	}
+	
+	.head-description{
+		font-size: 24px;
+		margin-bottom: 32px;
+	}
+	
+	.red--button{
+		width: 246px;
+		padding: 10px 8px;
+	}
+	
+	.head-button{
+		margin-bottom: 232px;	
+	}
+	
+	.main-title{
+		margin-bottom: 32px;
+	}
+	
+	.list-wrap{
+		width: 68%;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	.main-list{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	
+	.item-2{
+		order: 3;
+	}
+
+	.item-3{
+		order: 2;
+	}
+
+	.item-4{
+		order: 4;
+	}
+
+	.main-item{
+		width: 50%;
+		padding: 0 20px 0 20px;
+	}
+	
+	.foot-button{
+	margin-bottom: 72px;
+}
+}
+@media (min-width: 942px){
+	.head-wrap{
+		background-image: url(../img/background-desktop-start.jpg);
+	}
+	
+	.head-menu{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		flex-wrap: none;
+	}
+	
+	.wrap-button{
+		margin-right: 12px;
+	}
+	
+	.logo{
+		margin-left: 12px;
+	}
+	
+	.list-wrap{
+		width: 100%;
+	}
+	
+	.main-item{
+		width: 23.25%;
+		padding: 0 12px 0 12px;
+	}
+	
+	.main-list{
+		flex-wrap: none;
+	}
+	
+}
+@media (min-width: 1440px){
+	.head-wrap{
+		background-image: url(../img/background-desktop.jpg);
+	}
+	.list-wrap{
+		width: 65.4%;
+	}
+	.logo{
+		margin-left: 250px;
+	}
+	
+	.wrap-button{
+		margin-right: 250px;
+	}
+	
+}	
