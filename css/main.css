@@ -28,21 +28,26 @@ body{
 	margin: 0 auto;
 }
 
-.head-wrap{
+
+.head{
 	min-height: 540px;
 	background-image: url(../img/background-mobile.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.head-wrap{
 	padding-top: 20px;
 }
 
 .container{
-	min-width: 320px;
 	text-align: center;
+	min-width: 320px;
 }
 
 .wrap-button{
 	margin-bottom: 110px;
+	padding-top: 10px;
 }
 
 .white--button{
@@ -53,7 +58,7 @@ body{
 	border: 2px solid transparent;
 	background-color: transparent;
 	padding: 8px 17px;
-	cursor: pointer;
+	text-decoration: none;
 }
 
 .log-button:hover,
@@ -119,21 +124,23 @@ body{
 }
 
 .head-button:hover{
-	background-color: transparent;
+	background-color: var(--white);
+	color: var(--red);
 }
 
 .head-button:focus{
-	background-color: transparent;
+	background-color: var(--white);
+	color: var(--red);
 }
 
 .foot-button:hover{
 	background-color: transparent;
-	color: var(--dark);
+	color: var(--red);
 }
 
 .foot-button:focus{
 	background-color: transparent;
-	color: var(--dark);
+	color: var(--red);
 }
 
 .main-title{
@@ -145,26 +152,68 @@ body{
 }
 
 .main-list{
+	max-width: 450px;
 	padding: 0;
-	margin: 0;
+	margin: 0 auto;
 }
 
 .main-item{
-	list-style: none;
 	text-align: center;
-	padding: 0 50px 0 50px;
+	padding: 0 55px 0 55px;
+}
+
+.img-wrap{
+	background-repeat: no-repeat;
+	position: relative;
+	width: 122px;
+	height: 122px;
+	margin: 0 auto;
+	margin-bottom: 42px;
+}
+
+.item-icon{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 41px;
+	width: 41px;
+}
+
+.item-1{
+	background-image: url(../img/icon-tv.png);
+}
+
+.item-2{
+	background-image: url(../img/icon-chemical.png);
+}
+
+.item-3{
+	background-image: url(../img/icon-tea.png);
+}
+
+.item-4{
+	background-image: url(../img/icon-fly.png);
+}
+
+.item-link{
+	text-decoration: none;
 }
 
 .item-img{
 	margin: 0 auto;
-	margin-bottom: 10px;
+	width: 122px;
+	height: 122px;
+	overflow: hidden;
+	border-radius: 50%;
 }
 
 .item-name{
 	font-family: var(--font-m);
 	font-weight: 700;
 	font-size: 14px;
+	color: var(--dark);
 	margin: 0;
+	padding-top: 18px;
 }
 
 .item-description{

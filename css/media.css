@@ -1,8 +1,8 @@
 @media (min-width: 748px){
-	.head-wrap{
+	.head{
 		background-image: url(../img/background-tablet.jpg);
 	}
-
+	
 	.head-menu{
 		display: flex;
 		flex-direction: row-reverse;
@@ -47,7 +47,7 @@
 	}
 	
 	.list-wrap{
-		width: 68%;
+		width: 100%;
 		margin: 0 auto;
 		padding: 0;
 	}
@@ -56,23 +56,24 @@
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		max-width: 492px;
 	}
 	
-	.item-2{
+	.item-order-2{
 		order: 3;
 	}
 
-	.item-3{
+	.item-order-3{
 		order: 2;
 	}
 
-	.item-4{
+	.item-order-4{
 		order: 4;
 	}
 
 	.main-item{
-		width: 50%;
-		padding: 0 20px 0 20px;
+		width: 48%;
+		padding: 0 10px 0 10px;
 	}
 	
 	.foot-button{
@@ -80,17 +81,23 @@
 }
 }
 @media (min-width: 942px){
-	.head-wrap{
+	.head{
 		background-image: url(../img/background-desktop-start.jpg);
 	}
-	
+
 	.head-menu{
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: space-between;
-		flex-wrap: none;
+		flex-wrap: nowrap;
+		margin: 0 auto;
 	}
 	
+	.container{
+		max-width: 942px;
+		margin: auto;
+	}
+
 	.wrap-button{
 		margin-right: 12px;
 	}
@@ -98,34 +105,22 @@
 	.logo{
 		margin-left: 12px;
 	}
-	
-	.list-wrap{
-		width: 100%;
-	}
-	
+		
 	.main-item{
-		width: 23.25%;
-		padding: 0 12px 0 12px;
+		width: 25%;
+		padding: 0 10px 0 10px;
 	}
 	
 	.main-list{
-		flex-wrap: none;
+		flex-wrap: nowrap;
+		margin: 0 auto;
+		max-width: 942px;
 	}
 	
 }
 @media (min-width: 1440px){
-	.head-wrap{
+	.head{
 		background-image: url(../img/background-desktop.jpg);
 	}
-	.list-wrap{
-		width: 65.4%;
-	}
-	.logo{
-		margin-left: 250px;
-	}
-	
-	.wrap-button{
-		margin-right: 250px;
-	}
-	
+
 }	
